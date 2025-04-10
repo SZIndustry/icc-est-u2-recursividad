@@ -8,13 +8,6 @@ public class EjerciciosRecursividad {
 
     }
 
-    //public int sumaConsecutivos(int n) {
-        //if (n == 1) {
-        //    return 1;
-       // }
-       // return n + sumaConsecutivos(n - 1);
-   // }
-
     public int sumaConsecutivos(int n) {
 
         if (n == 1) {
