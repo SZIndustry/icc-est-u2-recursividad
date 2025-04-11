@@ -41,4 +41,26 @@ public class EjerciciosRecursividad {
             return ultimoDigito + sumaDigitos(restoNumero);
         }
     }
+
+    public int printNums(int n) {
+        if (n == 1) {
+            return n;
+        }
+
+        else {
+            System.out.print(n + ",");
+            return printNums(n - 1);
+        }
+    }
+
+    public int reverso(int n) {
+        if (n == 0) {
+            return n;
+        }
+        else {
+            int ultimoDigito = n % 10;
+            //int aux = ultimoDigito;
+            return ultimoDigito; 
+        }
+    }
 }

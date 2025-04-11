@@ -33,6 +33,21 @@ public class App {
         System.out.println(resultadoSuma);
 
 
+        //imprimir numeros
+        int numerobase = 5;
+        EjerciciosRecursividad eI = new EjerciciosRecursividad();
+        System.out.println("Imprimir numeros");
+        int suma = eI.printNums(numerobase);
+        System.out.println(suma);
+
+        //reverso 
+        int num = 1234;
+        EjerciciosRecursividad eR = new EjerciciosRecursividad();
+        System.out.println("arreglo original: " + num);
+        System.out.println("Imprimir reverso");
+        int reverso = eR.reverso(num);
+        System.out.println(reverso);
+
         
 
     }
@@ -47,8 +62,6 @@ public class App {
          return resultado;
      }
 
-     
-         
-     
+
 
 }
